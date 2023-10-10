@@ -7,16 +7,20 @@
     "build": "remix build",
     "dev": "remix dev --manual -c \"npm run start\"",
     "start": "wrangler pages dev --compatibility-date=2023-06-21 ./public",
-    "typecheck": "tsc"
+    "typecheck": "tsc",
+    "wp-env:start": "wp-env start",
+    "wp-env:stop": "wp-env stop"
   },
   "dependencies": {
     "@remix-run/cloudflare": "^2.0.1",
     "@remix-run/cloudflare-pages": "^2.0.1",
     "@remix-run/css-bundle": "^2.0.1",
     "@remix-run/react": "^2.0.1",
+    "@wordpress/env": "^8.9.0",
     "isbot": "^3.6.8",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "wp-types": "^3.63.0"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20230518.0",

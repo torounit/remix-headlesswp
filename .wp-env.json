@@ -1,0 +1,5 @@
+{
+  "plugins": [ "./wp" ],
+  "port": 8881,
+  "testsPort": 8882
+}
